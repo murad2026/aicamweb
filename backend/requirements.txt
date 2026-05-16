@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+python-multipart
+opencv-python-headless
+ultralytics
+requests
+python-jose
+passlib
+resend
+python-dotenv
