@@ -1,6 +1,5 @@
-import socket
+﻿import socket
 import threading
-import requests
 import cv2
 
 def check_port(ip, port, timeout=0.5):
@@ -28,7 +27,6 @@ def scan_network():
     subnet = get_local_subnet()
     found = []
     lock = threading.Lock()
-
     def check_ip(i):
         ip = f"{subnet}.{i}"
         if check_port(ip, 554):
@@ -37,35 +35,34 @@ def scan_network():
         elif check_port(ip, 7441):
             with lock:
                 found.append({"ip": ip, "port": 7441, "type": "unifi"})
-
     threads = []
     for i in range(1, 255):
         t = threading.Thread(target=check_ip, args=(i,))
         threads.append(t)
         t.start()
-
     for t in threads:
         t.join(timeout=2)
-
     return found
 
-def test_rtsp(ip, username, password, brand):
+def test_rtsp(ip, username, password, brand="auto"):
     paths = {
-        "hikvision": f"rtsp://{username}:{password}@{ip}/Streaming/Channels/101",
-        "dahua": f"rtsp://{username}:{password}@{ip}/cam/realmonitor?channel=1&subtype=0",
-        "reolink": f"rtsp://{username}:{password}@{ip}/h264Preview_01_main",
-        "generic": f"rtsp://{username}:{password}@{ip}/stream1",
+        "hikvision": f"rtsp://{username}:{password}@{ip}:554/Streaming/Channels/101",
+        "dahua": f"rtsp://{username}:{password}@{ip}:554/cam/realmonitor?channel=1&subtype=0",
+        "reolink": f"rtsp://{username}:{password}@{ip}:554/h264Preview_01_main",
+        "generic": f"rtsp://{username}:{password}@{ip}:554/stream1",
     }
-    
-    for brand_name, url in paths.items():
+    if brand != "auto" and brand in paths:
+        to_try = {brand: paths[brand]}
+    else:
+        to_try = paths
+    for brand_name, url in to_try.items():
         try:
-            cap = cv2.VideoCapture(url)
-            cap.set(cv2.CAP_PROP_OPEN_TIMEOUT_MSEC, 3000)
+            cap = cv2.VideoCapture(url, cv2.CAP_FFMPEG)
+            cap.set(cv2.CAP_PROP_OPEN_TIMEOUT_MSEC, 5000)
             ret, _ = cap.read()
             cap.release()
             if ret:
                 return {"success": True, "rtsp_url": url, "brand": brand_name}
         except:
             continue
-    
     return {"success": False}

@@ -18,7 +18,10 @@ class CameraDB(Base):
     zone = Column(JSON, nullable=True)
     detect_classes = Column(JSON, default=["person"])
     notify_telegram = Column(String, nullable=True)
+    notify_whatsapp = Column(String, nullable=True)
+    notify_sms = Column(String, nullable=True)
     notify_email = Column(String, nullable=True)
+    notify_sms = Column(String, nullable=True)
 
 Base.metadata.create_all(bind=engine)
 
@@ -36,9 +39,12 @@ class EventDB(Base):
     id = Column(Integer, primary_key=True, index=True)
     camera_id = Column(Integer)
     camera_name = Column(String)
-    detected = Column(String)  # "person, car"
+    detected = Column(String)
     confidence = Column(String)
+    photo_url = Column(String, nullable=True)
     timestamp = Column(String, default=lambda: datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    telegram_message_id = Column(String, nullable=True)
+    telegram_chat_id = Column(String, nullable=True)
 
 Base.metadata.create_all(bind=engine)
 
@@ -49,9 +55,13 @@ class UserDB(Base):
     username = Column(String, unique=True)
     hashed_password = Column(String)
     telegram_chat_id = Column(String, nullable=True)
+    push_token = Column(String, nullable=True)
     is_verified = Column(Integer, default=0)
     verify_token = Column(String, nullable=True)
     reset_token = Column(String, nullable=True)
+    phone = Column(String, nullable=True)
+    phone_verified = Column(Integer, default=0)
+    plan = Column(String, default="free")
     created_at = Column(String, default=lambda: datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
 Base.metadata.create_all(bind=engine)
