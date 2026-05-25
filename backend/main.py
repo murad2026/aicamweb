@@ -571,8 +571,8 @@ async def chat_endpoint(data: dict):
         return {"reply": text}
 
 CRISP_WEBSITE_ID = "4d8501f9-ee54-4f41-8f91-e69937105b82"
-CRISP_API_ID = "40a0a408-28f0-4ee5-8963-04b9e2e88e18"
-CRISP_API_KEY = "66deb146a06d8cd2b2d30c22770a973a80292b85f1c3571a5685c77508bec30e"
+CRISP_API_ID = "0a06d6f8-2cfa-4148-8f53-949f2f31dded"
+CRISP_API_KEY = "071b4d0b9b43bb34fb03e0055955375f41c90276920028eeb5feeb792f3ced77"
 
 CRISP_SYSTEM = """You are an AI assistant for AI Any Camera — a smart security camera monitoring platform.
 You help users with connecting cameras, setting up alerts, and understanding plans.
