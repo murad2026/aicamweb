@@ -25,6 +25,7 @@ class CameraCreate(BaseModel):
     brand: str
     zone: Optional[Zone] = None
     detect_classes: List[str] = ["person"]
+    name: Optional[str] = None
     notify_telegram: Optional[str] = None
     notify_email: Optional[str] = None
 
@@ -37,6 +38,7 @@ class AutoAddRequest(BaseModel):
     username: str
     password: str
     detect_classes: List[str] = ["person"]
+    name: Optional[str] = None
 
 @app.post("/cameras/auto-add")
 def auto_add_camera(req: AutoAddRequest, db: Session = Depends(get_db), current_user = Depends(get_current_user)):
@@ -65,7 +67,7 @@ def auto_add_camera(req: AutoAddRequest, db: Session = Depends(get_db), current_
     existing = db.query(CameraDB).filter(CameraDB.rtsp_url == result["rtsp_url"], CameraDB.user_id == current_user.id).first()
     if existing:
         raise HTTPException(status_code=409, detail="Camera already added.")
-    name = f"Camera {req.ip}"
+    name = req.name or f"Camera {req.ip}"
     db_cam = CameraDB(
         user_id=current_user.id,
         name=name,
