@@ -238,7 +238,7 @@ def resolve_chat_id(username):
 
 def in_zone(p, zone, frame_w, frame_h, grid_cols=16, grid_rows=9):
     if not zone or not zone.get("cells"):
-        return True
+        return False  # No zone = no alerts
     cx = (p["x"] + p["w"] // 2) / frame_w
     cy = (p["y"] + p["h"] // 2) / frame_h
     col = int(cx * grid_cols)
