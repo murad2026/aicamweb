@@ -445,7 +445,7 @@ class CameraWorker:
                         _sq_conn.close()
 
                         _tg_target = self.camera.get("notify_telegram") or (_user[0] if _user else None)
-                        _phone_target = self.camera.get("notify_sms") or (_user[1] if _user else None)
+                        _phone_target = self.camera.get("notify_sms") or None
 
                         if _tg_target:
                             chat_id = resolve_chat_id(_tg_target)
