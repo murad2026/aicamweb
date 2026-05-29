@@ -1,0 +1,1458 @@
+Creating new Ultralytics Settings v0.0.6 file  
+View Ultralytics Settings with 'yolo settings' or at 'C:\WINDOWS\system32\config\systemprofile\AppData\Roaming\Ultralytics\settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/quickstart/#ultralytics-settings.
+✅ subject_sightings table ready
+🎥 Started: Camera 192.168.3.198
+🎥 Started: security desk
+Started 2 camera workers
+📐 Stream size: 1280x960
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+📐 Stream size: 1280x720
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras/27/snapshot HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/27/snapshot HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras/27/zone HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "PUT /cameras/27/zone HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /sw.js HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /admin HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /admin/stats?password=AiAnyCam2026! HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+26-05-29 10:22:40 - Directory C:\WINDOWS\system32\config\systemprofile\.deepface has been created
+26-05-29 10:22:40 - Directory C:\WINDOWS\system32\config\systemprofile\.deepface\weights has been created
+26-05-29 10:22:45 - 🔗 facenet512_weights.h5 will be downloaded from https://github.com/serengil/deepface_models/releases/download/v1.0/facenet512_weights.h5 to C:\WINDOWS\system32\config\systemprofile\.deepface\weights\facenet512_weights.h5...
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+👤 Known subject #264 seen again (sim=0.94, count=4)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /sw.js HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #66 seen again (sim=0.93, count=98)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     108.26.229.43:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #155 seen again (sim=0.93, count=9)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     108.26.229.43:0 - "GET /sw.js HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #105 seen again (sim=0.93, count=15)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+🔴 🚨 security desk: person detected
+👤 Known subject #45 seen again (sim=0.96, count=38)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2607:fb90:3c11:3a66:b028:ea2c:720:59bd:0 - "GET / HTTP/1.1" 200 OK
+INFO:     2607:fb90:3c11:3a66:b028:ea2c:720:59bd:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     2607:fb90:3c11:3a66:b028:ea2c:720:59bd:0 - "GET /static/js/main.10d99f86.js HTTP/1.1" 200 OK
+INFO:     2607:fb90:3c11:3a66:b028:ea2c:720:59bd:0 - "GET /static/css/main.b031c8e4.css HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #71 seen again (sim=0.94, count=16)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #48 seen again (sim=0.94, count=22)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #264 seen again (sim=0.94, count=5)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     162.14.114.97:0 - "GET / HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #59 seen again (sim=0.93, count=5)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #152 seen again (sim=0.93, count=5)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 New subject #319 'Unknown 279' (best_sim=0.90)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 New subject #320 'Unknown 280' (best_sim=0.90)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     46.138.250.165:0 - "GET / HTTP/1.1" 200 OK
+INFO:     46.138.250.165:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 New subject #321 'Unknown 281' (best_sim=0.91)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     2600:6c64:59f0:19d0:5d25:974c:e80c:cfc8:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     2600:6c64:59f0:19d0:5d25:974c:e80c:cfc8:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     2600:6c64:59f0:19d0:5d25:974c:e80c:cfc8:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     2600:6c64:59f0:19d0:5d25:974c:e80c:cfc8:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     2600:6c64:59f0:19d0:5d25:974c:e80c:cfc8:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     2600:6c64:59f0:19d0:5d25:974c:e80c:cfc8:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     2600:6c64:59f0:19d0:5d25:974c:e80c:cfc8:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2600:6c64:59f0:19d0:5d25:974c:e80c:cfc8:0 - "GET /status HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #195 seen again (sim=0.94, count=4)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 New subject #322 'Unknown 282' (best_sim=0.78)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     43.156.55.246:0 - "GET / HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+🔴 🚨 security desk: person detected
+👤 Known subject #49 seen again (sim=0.93, count=40)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #51 seen again (sim=0.93, count=9)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 New subject #323 'Unknown 283' (best_sim=0.92)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2600:6c64:59f0:19d0:5d25:974c:e80c:cfc8:0 - "GET /sw.js HTTP/1.1" 404 Not Found
+🔴 🚨 security desk: person detected
+👤 Known subject #47 seen again (sim=0.94, count=28)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     5.61.209.126:4430 - "GET /SDK/webLanguage HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #194 seen again (sim=0.93, count=3)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #51 seen again (sim=0.94, count=10)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #49 seen again (sim=0.94, count=41)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+🔴 🚨 security desk: person detected
+👤 Known subject #83 seen again (sim=0.92, count=12)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #45 seen again (sim=0.93, count=39)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+🔴 🚨 security desk: person detected
+👤 Known subject #59 seen again (sim=0.93, count=6)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2001:f40:908:1516:b54a:e2ec:b914:dcd5:0 - "GET / HTTP/1.1" 200 OK
+INFO:     2001:f40:908:1516:b54a:e2ec:b914:dcd5:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     2001:f40:908:1516:b54a:e2ec:b914:dcd5:0 - "GET /static/js/main.10d99f86.js HTTP/1.1" 200 OK
+INFO:     2001:f40:908:1516:b54a:e2ec:b914:dcd5:0 - "GET /static/css/main.b031c8e4.css HTTP/1.1" 200 OK
+INFO:     2001:f40:908:1516:b54a:e2ec:b914:dcd5:0 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #62 seen again (sim=0.95, count=7)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     107.23.64.136:0 - "GET / HTTP/1.1" 200 OK
+INFO:     107.23.64.136:0 - "GET / HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2001:f40:908:1516:b54a:e2ec:b914:dcd5:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2001:f40:908:1516:b54a:e2ec:b914:dcd5:0 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     2001:f40:908:1516:b54a:e2ec:b914:dcd5:0 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     2001:f40:908:1516:b54a:e2ec:b914:dcd5:0 - "OPTIONS /auth/register HTTP/1.1" 200 OK
+INFO:     2001:f40:908:1516:b54a:e2ec:b914:dcd5:0 - "POST /auth/register HTTP/1.1" 200 OK
+INFO:     2001:f40:908:1516:b54a:e2ec:b914:dcd5:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     2001:f40:908:1516:b54a:e2ec:b914:dcd5:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     2001:f40:908:1516:b54a:e2ec:b914:dcd5:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     2001:f40:908:1516:b54a:e2ec:b914:dcd5:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #49 seen again (sim=0.93, count=42)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #48 seen again (sim=0.95, count=23)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #66 seen again (sim=0.94, count=99)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+🔴 🚨 security desk: person detected
+👤 Known subject #210 seen again (sim=0.92, count=3)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #47 seen again (sim=0.95, count=29)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     5.61.209.224:54408 - "GET /../../../../../../etc/passwd HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     172.233.64.132:0 - "GET /wp-login.php HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #48 seen again (sim=0.94, count=24)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #49 seen again (sim=0.95, count=43)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     45.198.224.41:45340 - "CONNECT api.myip.la%3A443 HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     45.135.193.193:48286 - "CONNECT httpbin.org%3A443 HTTP/1.1" 404 Not Found
+🔴 🚨 security desk: person detected
+👤 Known subject #59 seen again (sim=0.94, count=7)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+🔴 🚨 security desk: person detected
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+👤 Known subject #47 seen again (sim=0.95, count=30)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+✅ Clear: security desk
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 New subject #324 'Unknown 284' (best_sim=0.91)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     178.120.93.153:0 - "GET /6999DJjf?utm_creative=1&utm_campaign=KNUR&utm_source=escobar&utm_placement=Instagram_Feed&campaign_id=120243826115170417&adset_id=120243826115180417&ad_id=120243826115160417&adset_name=VALERA&p=3452341611582961&int=%7Bint%7D&lock=1lb56&bid=18&utm_medium=paid&utm_id=120243826115170417&utm_content=120243826115160417&utm_term=120243826115180417&fbclid=PAYm9jbAR6dwFleHRuA2FlbQEwAGFkaWQBqzEfzpwLsXNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp71syldLxZX6UqiEyCbHpsccNeVUgbfR7rpe2KQ_i--phhwRhlKyFGQYHbC6_aem_Us0lwYhZZRxevDS-0L6P1A HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     45.198.224.5:58222 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 New subject #325 'Unknown 285' (best_sim=0.88)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     205.169.39.38:0 - "GET / HTTP/1.1" 200 OK
+INFO:     205.169.39.38:0 - "GET /static/js/main.10d99f86.js HTTP/1.1" 200 OK
+INFO:     205.169.39.38:0 - "GET /static/css/main.b031c8e4.css HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #49 seen again (sim=0.96, count=44)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 New subject #326 'Unknown 286' (best_sim=0.90)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #146 seen again (sim=0.94, count=11)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #321 seen again (sim=0.94, count=2)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+🔴 🚨 security desk: person detected
+👤 Known subject #324 seen again (sim=0.95, count=2)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     108.26.229.43:0 - "GET /sw.js HTTP/1.1" 404 Not Found
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+🔴 🚨 security desk: person detected
+👤 Known subject #131 seen again (sim=0.96, count=10)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 New subject #327 'Unknown 287' (best_sim=0.90)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     108.26.229.43:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     47.84.107.47:26448 - "GET / HTTP/1.1" 200 OK
+INFO:     47.84.107.47:26462 - "GET / HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /sw.js HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     87.121.84.167:52330 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #324 seen again (sim=0.95, count=3)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #47 seen again (sim=0.94, count=31)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #78 seen again (sim=0.93, count=13)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 New subject #328 'Unknown 288' (best_sim=0.92)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+🔴 🚨 security desk: person detected
+👤 Known subject #45 seen again (sim=0.95, count=40)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /sw.js HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #74 seen again (sim=0.94, count=23)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+🔴 🚨 security desk: person detected
+👤 Known subject #83 seen again (sim=0.94, count=13)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #49 seen again (sim=0.93, count=45)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     198.145.79.218:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     108.26.229.43:0 - "GET /sw.js HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #137 seen again (sim=0.93, count=2)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #321 seen again (sim=0.92, count=3)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #174 seen again (sim=0.95, count=8)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 New subject #329 'Unknown 289' (best_sim=0.89)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     108.26.229.43:0 - "GET /sw.js HTTP/1.1" 404 Not Found
+✅ Clear: security desk
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #328 seen again (sim=0.95, count=2)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #45 seen again (sim=0.94, count=41)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     185.226.93.242:41186 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #155 seen again (sim=0.93, count=10)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 New subject #330 'Unknown 290' (best_sim=0.91)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 New subject #331 'Unknown 291' (best_sim=0.92)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 New subject #332 'Unknown 292' (best_sim=0.89)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+🔴 🚨 security desk: person detected
+👤 Known subject #155 seen again (sim=0.94, count=11)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     108.26.229.43:0 - "GET /sw.js HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #45 seen again (sim=0.95, count=42)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #46 seen again (sim=0.93, count=3)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     43.132.214.228:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #324 seen again (sim=0.94, count=4)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #74 seen again (sim=0.93, count=24)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #241 seen again (sim=0.94, count=7)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     108.26.229.43:0 - "GET /sw.js HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+🔴 🚨 security desk: person detected
+👤 Known subject #83 seen again (sim=0.95, count=14)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ Clear: security desk
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK

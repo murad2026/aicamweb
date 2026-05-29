@@ -1,0 +1,23 @@
+INFO:     Started server process [19532]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780064549.762230   13772 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780064554.205202   13772 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\medarius\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+Downloading...
+From: https://github.com/serengil/deepface_models/releases/download/v1.0/facenet512_weights.h5
+To: C:\WINDOWS\system32\config\systemprofile\.deepface\weights\facenet512_weights.h5
+  0%|          | 0.00/95.0M [00:00<?, ?B/s]  1%|          | 524k/95.0M [00:00<00:48, 1.93MB/s]  6%|6         | 5.77M/95.0M [00:00<00:05, 17.4MB/s] 15%|#4        | 14.2M/95.0M [00:00<00:02, 37.8MB/s] 27%|##7       | 25.7M/95.0M [00:00<00:01, 61.1MB/s] 35%|###5      | 33.6M/95.0M [00:00<00:00, 64.5MB/s] 44%|####3     | 41.4M/95.0M [00:00<00:00, 65.8MB/s] 51%|#####1    | 48.8M/95.0M [00:00<00:00, 66.3MB/s] 59%|#####9    | 56.1M/95.0M [00:01<00:00, 63.2MB/s] 66%|######6   | 62.9M/95.0M [00:01<00:00, 56.7MB/s] 73%|#######2  | 69.2M/95.0M [00:01<00:00, 53.8MB/s] 79%|#######8  | 75.0M/95.0M [00:01<00:00, 52.9MB/s] 85%|########5 | 80.7M/95.0M [00:01<00:00, 51.2MB/s] 91%|######### | 86.0M/95.0M [00:01<00:00, 50.2MB/s] 97%|#########6| 91.8M/95.0M [00:01<00:00, 50.3MB/s]100%|##########| 95.0M/95.0M [00:01<00:00, 50.8MB/s]
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [19532]

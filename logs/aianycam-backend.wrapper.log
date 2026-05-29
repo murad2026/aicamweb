@@ -1,0 +1,17 @@
+2026-05-29T10:17:23.454 INFO  console - Installing service 'AI Any Camera Backend (AiAnyCamBackend)'...
+2026-05-29T10:17:23.514 INFO  console - Service 'AI Any Camera Backend (AiAnyCamBackend)' was installed successfully.
+2026-05-29T10:17:45.357 DEBUG console - Starting WinSW in service mode.
+2026-05-29T10:17:45.398 INFO  console - Service 'AI Any Camera Backend (AiAnyCamBackend)' was refreshed successfully.
+2026-05-29T10:17:45.415 INFO  service - Starting C:\Users\medarius\AppData\Local\Programs\Python\Python312\python.exe
+2026-05-29T10:17:45.449 INFO  service - Started process python (19532).
+2026-05-29T10:17:45.477 INFO  service - Service started successfully.
+2026-05-29T14:44:25.936 INFO  service - Stopping AiAnyCamBackend
+2026-05-29T14:44:25.940 DEBUG service - ProcessKill 19532
+2026-05-29T14:44:27.541 INFO  service - Child process 'python (19532)' canceled with code 0.
+2026-05-29T14:44:27.555 INFO  service - Finished AiAnyCamBackend
+2026-05-29T14:44:27.555 INFO  service - Service stopped successfully.
+2026-05-29T14:44:28.047 DEBUG console - Starting WinSW in service mode.
+2026-05-29T14:44:28.098 INFO  console - Service 'AI Any Camera Backend (AiAnyCamBackend)' was refreshed successfully.
+2026-05-29T14:44:28.118 INFO  service - Starting C:\Users\medarius\AppData\Local\Programs\Python\Python312\python.exe
+2026-05-29T14:44:28.163 INFO  service - Started process python (26940).
+2026-05-29T14:44:28.195 INFO  service - Service started successfully.
