@@ -1456,3 +1456,21 @@ SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+161737241
 INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
 INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
 INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ subject_sightings table ready
+🎥 Started: Camera 192.168.3.198
+🎥 Started: security desk
+Started 2 camera workers
+📐 Stream size: 1280x960
+📐 Stream size: 1280x720
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/27 HTTP/1.1" 200 OK
+✅ subject_sightings table ready
+🎥 Started: Camera 192.168.3.198
+🎥 Started: security desk
+Started 2 camera workers
+📐 Stream size: 1280x960
+📐 Stream size: 1280x720
+🔴 🚨 security desk: person detected
+👤 New subject #333 'Unknown 1' (best_sim=0.00)
+SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
