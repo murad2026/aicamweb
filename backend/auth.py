@@ -35,3 +35,14 @@ def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(
         return user
     except JWTError:
         raise HTTPException(status_code=401, detail="Invalid token")
+
+
+def get_current_user_by_token(token: str, db: Session):
+    try:
+        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        user_id = payload.get("sub")
+        if not user_id:
+            return None
+        return db.query(UserDB).filter(UserDB.id == int(user_id)).first()
+    except:
+        return None
