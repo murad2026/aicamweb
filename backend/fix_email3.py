@@ -1,0 +1,5 @@
+content = open("C:/aianycam/backend/email_service.py", encoding="utf-8").read()
+print("Before:", content[content.find("verify_url"):content.find("verify_url")+60])
+content = content.replace("?token=", "?verify=")
+open("C:/aianycam/backend/email_service.py", "w", encoding="utf-8").write(content)
+print("After:", content[content.find("verify_url"):content.find("verify_url")+60])

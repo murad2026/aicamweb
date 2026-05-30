@@ -301,7 +301,7 @@ from email_service import send_verification_email, send_password_reset_email
 
 class RegisterRequest(PydanticBase):
     email: str
-    username: str
+    username: str = ''
     password: str
 
 class LoginRequest(PydanticBase):
@@ -313,13 +313,27 @@ def register(req: RegisterRequest, db: Session = Depends(get_db)):
     if db.query(UserDB).filter(UserDB.email == req.email).first():
         raise HTTPException(status_code=400, detail="Email already exists")
     verify_token = secrets.token_urlsafe(32)
-    user = UserDB(email=req.email, username=req.username, hashed_password=hash_password(req.password), verify_token=verify_token, is_verified=0)
+    import re
+    base_username = re.sub(r'[^a-z0-9]', '', req.email.split('@')[0].lower()) or 'user'
+    username = base_username
+    suffix = 1
+    while db.query(UserDB).filter(UserDB.username == username).first():
+        username = f"{base_username}{suffix}"
+        suffix += 1
+    user = UserDB(email=req.email, username=username, hashed_password=hash_password(req.password), verify_token=verify_token, is_verified=0)
     db.add(user)
-    db.commit()
-    db.refresh(user)
+    try:
+        db.commit()
+        db.refresh(user)
+    except Exception as e:
+        db.rollback()
+        if "username" in str(e):
+            raise HTTPException(status_code=400, detail="Username already taken")
+        if "email" in str(e):
+            raise HTTPException(status_code=400, detail="Email already exists")
+        raise HTTPException(status_code=400, detail="Registration failed")
     send_verification_email(user.email, user.username, verify_token)
-    token = create_token({"sub": str(user.id)})
-    return {"token": token, "user": {"id": user.id, "email": user.email, "username": user.username, "is_verified": 0}}
+    return {"message": "Check your email to verify your account"}
 
 @app.post("/auth/login")
 def login(req: LoginRequest, db: Session = Depends(get_db)):
@@ -760,3 +774,4 @@ import os
 frontend_build = os.path.join(os.path.dirname(__file__), '..', 'frontend', 'build')
 if os.path.exists(frontend_build):
     app.mount('/', StaticFiles(directory=frontend_build, html=True), name='static')
+

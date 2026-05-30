@@ -1474,3 +1474,162 @@ Started 2 camera workers
 🔴 🚨 security desk: person detected
 👤 New subject #333 'Unknown 1' (best_sim=0.00)
 SMS sent: 200 {"success":true,"message":"SMS sent successfully","to":"+16173724119"}
+✅ subject_sightings table ready
+Started 0 camera workers
+INFO:     96.39.40.58:0 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /static/js/main.10d99f86.js HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /static/css/main.b031c8e4.css HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET /logo192.png HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 401 Unauthorized
+INFO:     108.26.229.43:0 - "GET /sw.js HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /admin HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET /admin HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET /admin/stats?password=AiAnyCam2026! HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /static/js/main.9216d195.js HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "OPTIONS /auth/register HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     108.26.229.43:0 - "GET /sw.js HTTP/1.1" 404 Not Found
+✅ subject_sightings table ready
+Started 0 camera workers
+✅ subject_sightings table ready
+Started 0 camera workers
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /static/js/main.33c0e5f7.js HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /static/css/main.b031c8e4.css HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /logo192.png HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /sw.js HTTP/1.1" 404 Not Found
+INFO:     93.158.90.41:0 - "GET /robots.txt HTTP/1.1" 200 OK
+INFO:     93.158.90.34:0 - "GET / HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     108.26.229.43:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     108.26.229.43:0 - "GET /cameras HTTP/1.1" 401 Unauthorized
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     94.26.106.30:33664 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "OPTIONS /auth/register HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 400 Bad Request
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /static/css/main.b031c8e4.css.map HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /static/js/main.33c0e5f7.js.map HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 500 Internal Server Error
+✅ subject_sightings table ready
+Started 0 camera workers
+INFO:     45.79.181.223:25494 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /static/js/main.e454dbd3.js HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 422 Unprocessable Entity
+INFO:     96.39.40.58:0 - "GET /static/js/main.e454dbd3.js.map HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /static/js/main.e454dbd3.js.map HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     106.0.40.94:50994 - "GET /boaform/admin/formLogin?username=ec8&psd=ec8 HTTP/1.0" 404 Not Found
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /static/js/main.ec19f7be.js HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/register HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 422 Unprocessable Entity
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /static/js/main.ec19f7be.js.map HTTP/1.1" 200 OK
+INFO:     108.26.229.43:0 - "GET /sw.js HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /static/js/main.b1c96bee.js HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 422 Unprocessable Entity
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /static/js/main.b1c96bee.js.map HTTP/1.1" 200 OK
+✅ subject_sightings table ready
+Started 0 camera workers
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /static/js/main.b1c96bee.js.map HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 200 OK
+INFO:     2a06:98c0:3600::103:0 - "GET /wp-admin/install.php?step=1 HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 200 OK
+INFO:     23.27.145.94:0 - "GET / HTTP/1.1" 200 OK
+✅ subject_sightings table ready
+Started 0 camera workers
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "OPTIONS /auth/register HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 400 Bad Request
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /?token=ReyZc5tSl-so0_qzEeIBs3dhIegcapRmFnYHqt76DpY HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "OPTIONS /auth/reset-password HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/reset-password HTTP/1.1" 400 Bad Request
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /static/js/main.4230852c.js HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 400 Bad Request
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /?token=4QwYW_95LSSl8Vwk1AbyPYzabD6cbsfCWiJp5d2_b0E HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 400 Bad Request
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /?token=OLjTMnAqNYgpmjVamqihMmyefd_F8Af4PFpSXwy80BA HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "POST /auth/register HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /?token=7c-OeYRra9Ua3ca0tv_tlGMtSDo_X2jZ4cIods9Dgio HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 304 Not Modified

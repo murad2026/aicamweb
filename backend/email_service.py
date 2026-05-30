@@ -4,7 +4,7 @@ import secrets
 resend.api_key = "re_BbSi9QHe_MJnG5U7dMtLuNVYnHdDBbPSb"
 
 def send_verification_email(to_email, username, token):
-    verify_url = f"https://b48a-108-26-229-43.ngrok-free.app/auth/verify/{token}"
+    verify_url = f"https://aianycamera.com?verify={token}"
     try:
         resend.Emails.send({
             "from": "AI Any Camera <noreply@aianycamera.com>",
@@ -28,7 +28,7 @@ def send_verification_email(to_email, username, token):
         return False
 
 def send_password_reset_email(to_email, token):
-    reset_url = f"https://49ea-108-26-229-43.ngrok-free.app/reset-password?token={token}"
+    reset_url = f"https://aianycamera.com?verify={token}"
     try:
         resend.Emails.send({
             "from": "AI Any Camera <noreply@aianycamera.com>",
