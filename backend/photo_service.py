@@ -20,8 +20,9 @@ def upload_frame(frame, camera_name):
         result = cloudinary.uploader.upload(
             tmp.name,
             folder="aianycamera",
-            public_id=f"{camera_name}_{int(__import__('time').time())}_{__import__('random').randint(1000,9999)}",
-            overwrite=True
+            public_id=f"alert_{int(__import__('time').time())}_{__import__('random').randint(10000,99999)}",
+            overwrite=False,
+            invalidate=True
         )
         os.unlink(tmp.name)
         return result["secure_url"]
