@@ -1,0 +1,5 @@
+content = open("C:/aianycam/backend/main.py", encoding="utf-8").read()
+content = content.replace('@app.post("/agent/event")', '@app.post("/api/agent/event")')
+content = content.replace('@app.post("/agent/snapshot")', '@app.post("/api/agent/snapshot")')
+open("C:/aianycam/backend/main.py", "w", encoding="utf-8").write(content)
+print("Done")

@@ -246,24 +246,7 @@ from engine import start_camera, stop_camera, get_status, workers
 
 @app.on_event("startup")
 def startup():
-    from database import SessionLocal
-    db = SessionLocal()
-    cameras = db.query(CameraDB).filter(CameraDB.rtsp_url != None, CameraDB.rtsp_url != "").all()
-    db.close()
-    started = 0
-    for cam in cameras:
-        try:
-            start_camera({
-                "id": cam.id, "name": cam.name, "rtsp_url": cam.rtsp_url,
-                "detect_classes": cam.detect_classes or ["person"],
-                "zone": cam.zone, "notify_telegram": cam.notify_telegram,
-                "notify_sms": cam.notify_sms, "notify_email": cam.notify_email,
-                "push_token": None, "user_id": cam.user_id
-            })
-            started += 1
-        except Exception as e:
-            print(f"Failed to start camera {cam.name}: {e}")
-    print(f"Started {started} camera workers")
+    print("Server started - camera workers disabled (using agent v5)")
 
 @app.post("/cameras/{cam_id}/start")
 def start_cam(cam_id: int, db: Session = Depends(get_db)):
@@ -794,176 +777,104 @@ def update_alerts(cam_id: int, data: AlertsUpdate, db: Session = Depends(get_db)
     return {"ok": True}
 
 
-# ─── WebSocket Tunnel for Remote Cameras ─────────────────────────────────────
-
-from fastapi import WebSocket, WebSocketDisconnect
-import base64, json, numpy as np, cv2, time
-
-active_tunnels = {}  # camera_id -> websocket
-import queue as _queue
-detection_queue = _queue.Queue(maxsize=10)
-
-def _detection_worker():
-    """Background thread for YOLO detection"""
-    while True:
-        try:
-            camera_id, frame = detection_queue.get(timeout=1)
-            from database import SessionLocal
-            from engine import detect_frame, in_zone
-            _db = SessionLocal()
-            _cam = _db.query(CameraDB).filter(CameraDB.id == camera_id).first()
-            if not _cam:
-                _db.close()
-                continue
-            zone = _cam.zone
-            notify_sms = _cam.notify_sms
-            notify_telegram = _cam.notify_telegram
-            _db.close()
-
-            fh, fw = frame.shape[:2]
-            detections = detect_frame(frame, ["person"], conf=0.3)
-            in_zone_det = [d for d in detections if in_zone(d, zone, fw, fh)]
-            print(f"🔍 cam {camera_id}: {len(detections)} detections, {len(in_zone_det)} in zone", flush=True)
-
-            if not in_zone_det:
-                continue
-
-            import time
-            now = time.time()
-            last = _last_alert.get(camera_id, 0)
-            if now - last < 60:
-                continue
-            _last_alert[camera_id] = now
-
-            try:
-                from photo_service import upload_frame
-                from datetime import datetime
-                from database import SessionLocal, EventDB
-                cls_names = list(set(d["class"] for d in in_zone_det))
-                from datetime import datetime
-                _time = datetime.now().strftime('%H:%M:%S')
-                caption = f"🚨 {_cam.name}: {', '.join(cls_names)} detected at {_time}"
-                photo_url = upload_frame(frame, _cam.name)
-                now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                _db2 = SessionLocal()
-                event = EventDB(camera_id=camera_id, camera_name=_cam.name,
-                    detected=", ".join(cls_names),
-                    confidence=f"{max(d['conf'] for d in in_zone_det):.2f}",
-                    timestamp=now_str, photo_url=photo_url)
-                _db2.add(event); _db2.commit(); _db2.close()
-                if notify_telegram:
-                    from engine import send_telegram, resolve_chat_id
-                    chat_id = resolve_chat_id(notify_telegram)
-                    if chat_id:
-                        send_telegram(chat_id, frame, caption)
-                if notify_sms:
-                    from sms_service import send_sms
-                    send_sms(notify_sms, caption + (f" Photo: {photo_url}" if photo_url else ""))
-                print(f"🚨 Alert sent: {caption}", flush=True)
-            except Exception as e:
-                print(f"Alert error: {e}", flush=True)
-        except _queue.Empty:
-            continue
-        except Exception as e:
-            print(f"Detection worker error: {e}", flush=True)
-
-_last_alert = {}
-import threading as _threading
-_det_thread = _threading.Thread(target=_detection_worker, daemon=True)
-_det_thread.start()
-print("✅ Detection worker started", flush=True)
-tunnel_snapshots = {}  # camera_id -> base64 jpeg
-
-@app.websocket("/ws/tunnel/{camera_id}")
-async def camera_tunnel(websocket: WebSocket, camera_id: int):
-    await websocket.accept()
+@app.post("/api/agent/event")
+async def agent_event(request: Request, db: Session = Depends(get_db)):
+    """Receive detection event from local agent (Raspberry Pi)"""
+    data = await request.json()
     
     # Verify token
-    try:
-        token = websocket.query_params.get("token")
-        if not token:
-            await websocket.close(code=4001)
-            return
-        from auth import get_current_user_by_token
-        from database import SessionLocal
-        db = SessionLocal()
-        user = get_current_user_by_token(token, db)
-        if not user:
-            db.close()
-            await websocket.close(code=4001)
-            return
-        
-        cam = db.query(CameraDB).filter(CameraDB.id == camera_id, CameraDB.user_id == user.id).first()
-        if not cam:
-            db.close()
-            await websocket.close(code=4004)
-            return
-        db.close()
-    except Exception as e:
-        print(f"WS auth error: {e}", flush=True)
-        import traceback; traceback.print_exc()
-        await websocket.close(code=4001)
-        return
-
-    print(f"🔌 Tunnel connected: camera {camera_id} ({cam.name})", flush=True)
-    active_tunnels[camera_id] = websocket
+    token = data.get("token")
+    if not token:
+        raise HTTPException(status_code=401, detail="No token")
+    from auth import get_current_user_by_token
+    user = get_current_user_by_token(token, db)
+    if not user:
+        raise HTTPException(status_code=401, detail="Invalid token")
     
-    camera_dict = {
-        "id": cam.id, "name": cam.name, "rtsp_url": cam.rtsp_url,
-        "user_id": cam.user_id,
-        "detect_classes": cam.detect_classes or ["person"],
-        "zone": cam.zone,
-        "notify_telegram": cam.notify_telegram,
-        "notify_sms": cam.notify_sms,
-        "notify_email": cam.notify_email,
-        "push_token": None,
-    }
-
-    last_alert = 0
-    COOLDOWN = 60
-
-    try:
-        print(f"🔄 Waiting for frames: camera {camera_id}", flush=True)
-        while True:
-            data = await websocket.receive_text()
-            print(f"📨 Got message type: {json.loads(data).get('type')}", flush=True)
-            msg = json.loads(data)
-
-            # Handle snapshot response
-            if msg.get("type") == "snapshot":
-                frame_bytes = base64.b64decode(msg["frame"])
-                tunnel_snapshots[camera_id] = msg["frame"]
-                print(f"📸 Snapshot received: {cam.name}")
-                continue
-
-            if msg.get("type") != "frame":
-                continue
-
-            # Decode frame
-            print(f'🖼️ Decoding frame...', flush=True)
-            frame_bytes = base64.b64decode(msg["frame"])
-            nparr = np.frombuffer(frame_bytes, np.uint8)
+    camera_id = data.get("camera_id")
+    cam = db.query(CameraDB).filter(CameraDB.id == camera_id, CameraDB.user_id == user.id).first()
+    if not cam:
+        raise HTTPException(status_code=404, detail="Camera not found")
+    
+    detected = data.get("detected", "person")
+    confidence = data.get("confidence", "0.90")
+    photo_b64 = data.get("photo")
+    
+    # Upload photo
+    photo_url = None
+    if photo_b64:
+        try:
+            import base64, cv2, numpy as np, tempfile, os
+            img_bytes = base64.b64decode(photo_b64)
+            nparr = np.frombuffer(img_bytes, np.uint8)
             frame = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
-            print(f'🖼️ Frame decoded: {frame is not None}', flush=True)
-            if frame is None:
-                continue
+            if frame is not None:
+                from photo_service import upload_frame
+                photo_url = upload_frame(frame, cam.name)
+        except Exception as e:
+            print(f"Photo upload error: {e}")
+    
+    # Save event
+    from datetime import datetime
+    from database import EventDB
+    now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    now_time = datetime.now().strftime("%H:%M:%S")
+    
+    event = EventDB(
+        camera_id=cam.id, camera_name=cam.name,
+        detected=detected, confidence=confidence,
+        timestamp=now_str, photo_url=photo_url
+    )
+    db.add(event); db.commit()
+    
+    # Send alerts
+    caption = f"🚨 {cam.name}: {detected} detected at {now_time}"
+    
+    if cam.notify_telegram:
+        try:
+            from engine import send_telegram, resolve_chat_id
+            chat_id = resolve_chat_id(cam.notify_telegram)
+            if chat_id and frame is not None:
+                send_telegram(chat_id, frame, caption)
+        except Exception as e:
+            print(f"Telegram error: {e}")
+    
+    if cam.notify_sms:
+        try:
+            from sms_service import send_sms
+            msg = caption
+            if photo_url:
+                msg += f" Photo: {photo_url}"
+            send_sms(cam.notify_sms, msg)
+        except Exception as e:
+            print(f"SMS error: {e}")
+    
+    print(f"✅ Agent event: {caption}", flush=True)
+    return {"ok": True, "event_id": event.id}
 
-            # Save frame for debug
-            import cv2 as _cv2; _cv2.imwrite('C:/aianycam/debug_frame.jpg', frame)
-            # Put frame in detection queue (non-blocking)
-            try:
-                detection_queue.put_nowait((camera_id, frame.copy()))
-            except:
-                pass  # Queue full, skip frame
+@app.post("/api/agent/snapshot")
+async def agent_snapshot(request: Request, db: Session = Depends(get_db)):
+    """Receive snapshot from agent for zone editor / live view"""
+    data = await request.json()
+    token = data.get("token")
+    if not token:
+        raise HTTPException(status_code=401, detail="No token")
+    from auth import get_current_user_by_token
+    user = get_current_user_by_token(token, db)
+    if not user:
+        raise HTTPException(status_code=401, detail="Invalid token")
+    camera_id = data.get("camera_id")
+    image_b64 = data.get("image")
+    if image_b64:
+        tunnel_snapshots[camera_id] = image_b64
+    return {"ok": True}
 
-
-
-    except WebSocketDisconnect:
-        print(f"🔌 Tunnel disconnected: camera {camera_id}")
-        active_tunnels.pop(camera_id, None)
-    except Exception as e:
-        print(f"❌ Tunnel error: {e}")
-        active_tunnels.pop(camera_id, None)
+@app.get("/agent/cameras")
+def agent_cameras(db: Session = Depends(get_db)):
+    """Get cameras list for agent - authenticated by token in header"""
+    from fastapi import Header
+    token = None
+    return {"error": "use /cameras endpoint with Bearer token"}
 
 # Serve frontend
 from fastapi.staticfiles import StaticFiles
