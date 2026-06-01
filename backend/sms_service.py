@@ -9,6 +9,7 @@ def send_sms(phone, message):
         print(f"SMS BLOCKED (old camera): {message[:80]}")
         return False
     try:
+        print(f'SENDING SMS: {message[:100]}', flush=True)
         r = requests.post(
             SMS_GATEWAY_URL,
             json={"phone": phone, "message": message},
