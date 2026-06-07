@@ -21006,3 +21006,15 @@ System.InvalidOperationException: Process was not started by this object, so req
 2026-06-07T13:41:03.045 INFO  service - Starting C:\Users\medarius\AppData\Local\Programs\Python\Python312\python.exe
 2026-06-07T13:41:03.086 INFO  service - Started process python (26916).
 2026-06-07T13:41:03.114 INFO  service - Service started successfully.
+2026-06-07T13:45:43.798 WARN  service - Child process 'python (26916)' finished with code -1.
+2026-06-07T13:45:47.071 DEBUG console - Starting WinSW in service mode.
+2026-06-07T13:45:47.113 INFO  console - Service 'AI Any Camera Backend (AiAnyCamBackend)' was refreshed successfully.
+2026-06-07T13:45:47.130 INFO  service - Starting C:\Users\medarius\AppData\Local\Programs\Python\Python312\python.exe
+2026-06-07T13:45:47.169 INFO  service - Started process python (24568).
+2026-06-07T13:45:47.197 INFO  service - Service started successfully.
+2026-06-07T13:56:07.531 WARN  service - Child process 'python (24568)' finished with code -1.
+2026-06-07T13:56:10.817 DEBUG console - Starting WinSW in service mode.
+2026-06-07T13:56:10.859 INFO  console - Service 'AI Any Camera Backend (AiAnyCamBackend)' was refreshed successfully.
+2026-06-07T13:56:10.877 INFO  service - Starting C:\Users\medarius\AppData\Local\Programs\Python\Python312\python.exe
+2026-06-07T13:56:10.918 INFO  service - Started process python (24944).
+2026-06-07T13:56:10.946 INFO  service - Service started successfully.

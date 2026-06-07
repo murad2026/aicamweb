@@ -8696,3 +8696,557 @@ INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
 INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
 INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
 INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+✅ subject_sightings table ready
+✅ Cloudinary cleanup started
+Server started - camera workers disabled (using agent v5)
+photo_b64 received: True
+Photo URL: https://res.cloudinary.com/dqhypnnjs/image/upload/v1780854077/aianycamera/alert_1780854077_11975.jpg
+SMS MESSAGE: 🚨 IP Camera - 192.168.1.64: person detected at 13:41:18 https://res.cloudinary.com/dqhypnnjs/image/upload/v1780854077/aianycamera/alert_1780854077_11975.jpg
+SMS sent: 200 {"success": true}
+✅ Agent event: 🚨 IP Camera - 192.168.1.64: person detected at 13:41:18
+INFO:     96.39.40.58:0 - "POST /api/agent/event HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /static/css/main.b031c8e4.css HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /static/js/main.6344e6a5.js HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras/2/snapshot HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     172.178.83.199:59376 - "GET /actuator/health HTTP/1.1" 404 Not Found
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+✅ subject_sightings table ready
+✅ Cloudinary cleanup started
+Server started - camera workers disabled (using agent v5)
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/2/mark-viewed HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /events/2/mark-viewed HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 304 Not Modified
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras/2/snapshot HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET / HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /manifest.json HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "OPTIONS /cameras/2/snapshot HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras/2/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "POST /api/agent/snapshot HTTP/1.1" 500 Internal Server Error
+INFO:     96.39.40.58:0 - "GET /cameras HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /status HTTP/1.1" 200 OK
+INFO:     96.39.40.58:0 - "GET /events/2 HTTP/1.1" 200 OK

@@ -8,6 +8,8 @@ from database import get_db, CameraDB, Base, engine
 from auth import hash_password, verify_password, create_token, get_current_user
 
 app = FastAPI(title="AI Any Camera")
+active_tunnels = {}
+tunnel_snapshots = {}
 
 app.add_middleware(
     CORSMiddleware,
