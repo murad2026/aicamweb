@@ -802,6 +802,7 @@ async def agent_event(request: Request, db: Session = Depends(get_db)):
     
     # Upload photo
     photo_url = None
+    print(f"photo_b64 received: {bool(photo_b64)}", flush=True)
     if photo_b64:
         try:
             import base64, cv2, numpy as np, tempfile, os
@@ -811,6 +812,7 @@ async def agent_event(request: Request, db: Session = Depends(get_db)):
             if frame is not None:
                 from photo_service import upload_frame
                 photo_url = upload_frame(frame, cam.name)
+                print(f"Photo URL: {photo_url}", flush=True)
         except Exception as e:
             print(f"Photo upload error: {e}")
     
@@ -844,17 +846,17 @@ async def agent_event(request: Request, db: Session = Depends(get_db)):
             from sms_service import send_sms
             msg = caption
             if photo_url:
-                # Validate photo is fresh (uploaded within last 60 seconds)
-                import re, time
+                import re, time as _t
                 match = re.search(r'/v(\d+)/', photo_url)
                 if match:
                     photo_ts = int(match.group(1))
-                    age = int(time.time()) - photo_ts
-                    if age > 60:
+                    age = int(_t.time()) - photo_ts
+                    if age > 300:
                         print(f"Photo too old ({age}s), skipping URL")
                         photo_url = None
                 if photo_url:
-                    msg += f" Photo: {photo_url}"
+                    msg += f" {photo_url}" if photo_url else ""
+
             print(f'SMS MESSAGE: {msg}', flush=True)
             send_sms(cam.notify_sms, msg)
         except Exception as e:
