@@ -1,11 +1,14 @@
 import { useState, useEffect, useRef } from "react";
 import api from "./api";
 
-const GRID_COLS = 16;
-const GRID_ROWS = 9;
+const BASE_COLS = 16;
+const BASE_ROWS = 9;
 
 export default function ZoneEditor({ camera, onBack }) {
   const [snapshot, setSnapshot] = useState(null);
+  const [imgSize, setImgSize] = useState({ w: 16, h: 9 });
+  const GRID_COLS = imgSize.w >= imgSize.h ? BASE_COLS : BASE_ROWS;
+  const GRID_ROWS = imgSize.w >= imgSize.h ? BASE_ROWS : BASE_COLS;
   const [selectedCells, setSelectedCells] = useState(function() {
     if (camera.zone && camera.zone.cells) {
       return camera.zone.cells.map(function(c) { return c[0] + "_" + c[1]; });
@@ -120,7 +123,7 @@ export default function ZoneEditor({ camera, onBack }) {
       {!loading && (
         <div style={{ position: "relative", userSelect: "none", touchAction: "none" }} onMouseUp={handleMouseUp} onMouseLeave={handleMouseUp} onTouchMove={handleTouchMove} onTouchEnd={handleMouseUp}>
           {snapshot && (
-            <img src={snapshot.image} alt="camera" style={{ width: "100%", borderRadius: 12, display: "block" }} />
+            <img src={snapshot.image} alt="camera" style={{ width: "100%", borderRadius: 12, display: "block" }} onLoad={function(e) { setImgSize({ w: e.target.naturalWidth, h: e.target.naturalHeight }); }} />
           )}
           {!snapshot && (
             <div style={{ width: "100%", paddingTop: "56.25%", background: "#0a0a0a", borderRadius: 12, border: "1px solid #222" }} />
