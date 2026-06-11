@@ -42,6 +42,47 @@ class AutoAddRequest(BaseModel):
     detect_classes: List[str] = ["person"]
     name: Optional[str] = None
 
+
+class PreviewRequest(BaseModel):
+    ip: str
+    username: str = "admin"
+    password: str
+
+@app.post("/cameras/preview")
+def preview_camera(req: PreviewRequest, current_user = Depends(get_current_user)):
+    from scanner import test_rtsp
+    import cv2, base64
+    result = test_rtsp(req.ip, req.username, req.password, "auto")
+    if not result.get("success"):
+        axis_url = f"rtsp://{req.username}:{req.password}@{req.ip}/axis-media/media.amp?videocodec=h264"
+        try:
+            cap = cv2.VideoCapture(axis_url, cv2.CAP_FFMPEG)
+            cap.set(cv2.CAP_PROP_OPEN_TIMEOUT_MSEC, 5000)
+            ret, _ = cap.read()
+            cap.release()
+            if ret:
+                result = {"success": True, "rtsp_url": axis_url, "brand": "axis"}
+        except:
+            pass
+    if not result.get("success"):
+        raise HTTPException(status_code=400, detail="Cannot connect to camera. Check IP, username and password.")
+    try:
+        cap = cv2.VideoCapture(result["rtsp_url"], cv2.CAP_FFMPEG)
+        cap.set(cv2.CAP_PROP_OPEN_TIMEOUT_MSEC, 5000)
+        for _ in range(5):
+            ret, frame = cap.read()
+        cap.release()
+        if ret:
+            h, w = frame.shape[:2]
+            small = cv2.resize(frame, (640, int(640 * h / w)))
+            _, buf = cv2.imencode(".jpg", small, [cv2.IMWRITE_JPEG_QUALITY, 85])
+            snapshot = "data:image/jpeg;base64," + base64.b64encode(buf.tobytes()).decode()
+        else:
+            snapshot = None
+    except:
+        snapshot = None
+    return {"success": True, "rtsp_url": result["rtsp_url"], "brand": result["brand"], "snapshot": snapshot}
+
 @app.post("/cameras/auto-add")
 def auto_add_camera(req: AutoAddRequest, db: Session = Depends(get_db), current_user = Depends(get_current_user)):
     plan = getattr(current_user, "plan", "free") or "free"
